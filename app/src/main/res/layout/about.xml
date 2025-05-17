@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:background="#fff">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/DevelopedByTXT"
+            android:gravity="center"
+            android:fontFamily="@font/flappybird_font"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:text="@string/Developer1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/flappybird_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/Developer2"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/flappybird_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--ANIMATON-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="programmers.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <Button
+            android:id="@+id/Close"
+            android:text="@string/Close"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/flappybird_font"
+            android:textSize="35sp"
+            android:backgroundTint="@color/darkBlue"
+            android:layout_width="150dp"
+            android:layout_height="50dp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
