@@ -18,7 +18,7 @@
             android:gravity="center"
             android:fontFamily="@font/flappybird_font"
             android:textSize="50sp"
-            android:textColor="#2f333f"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -27,7 +27,7 @@
             android:text="@string/Developer1"
             android:gravity="center"
             android:textSize="40sp"
-            android:textColor="#2f333f"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/flappybird_font"
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:text="@string/Developer2"
             android:gravity="center"
             android:textSize="40sp"
-            android:textColor="#2f333f"
+            android:textColor="@color/black"
             android:fontFamily="@font/flappybird_font"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -57,11 +57,11 @@
         <Button
             android:id="@+id/Close"
             android:text="@string/Close"
-            android:textColor="#fff"
+            android:textColor="@color/white"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/flappybird_font"
             android:textSize="35sp"
-            android:backgroundTint="#4A77A4"
+            android:backgroundTint="@color/darkBlue"
             android:layout_width="150dp"
             android:layout_height="50dp"/>
 

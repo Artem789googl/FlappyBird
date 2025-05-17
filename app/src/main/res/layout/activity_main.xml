@@ -40,7 +40,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/flappybird_font"
             android:textSize="30sp"
-            android:backgroundTint="#4A77A4"/>
+            android:backgroundTint="@color/darkBlue"/>
 
         <Button
             android:id="@+id/ExitMenu"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/flappybird_font"
             android:textSize="30sp"
-            android:backgroundTint="#4A77A4"/>
+            android:backgroundTint="@color/darkBlue"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
